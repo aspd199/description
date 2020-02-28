@@ -55,7 +55,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     append_to_head:
       - | # 腾讯公益
         <script
-          src='https://qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js'
+          src=''
           defer='defer'
           charset='utf-8'
           homePageUrl='/'
@@ -66,16 +66,16 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 支持的变量见https://merger.justhx.com/cn/docs/configure
         <script>
           var usage = "payment";
-          var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
-          var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
-          var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
-          var paypal = "https://paypal.me/wukan0621";
-          var myname = "WuK";
+          var wechat = "wxp://";
+          var tenpay = "https://";
+          var alipay = "https://";
+          var paypal = "https://";
+          var myname = "null";
           var profile = "https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=300";
           var multilingual = true;
-          var myname_hans = "吴坎";
-          var myname_hant = "吴坎";
-          var myname_eng = "WuK";
+          var myname_hans = "null";
+          var myname_hant = "null";
+          var myname_eng = "null";
           var title = "选择你的支付方式";
           var subtitle = "跟随进一步的指示以向" + myname + "付款";
           var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
@@ -119,8 +119,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         onload='
           new Valine({
             "el": ".v",
-            "appId": "9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz",
-            "appKey": "NJ7RwmgrxsF7KDzlqU7YewlL",
+            "appId": "abcdefghijklmnopqrstuvwxyz-abcdefgh",
+            "appKey": "abcdefghijklmnopqrstuvwxyz",
             "notify": "true",
             "verify": "true",
             "avatar": "identicon",
@@ -172,19 +172,19 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     sidebar:
       disable: false
       avatar: # 侧边栏显示的头像
-        enable: true
-        img: https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=300 # 头像的地址
+        enable: false
+        img: https://i1.hdslb.com/bfs/face/9cbe3d40029744b40d145a887e826e173ff60f66.jpg_64x64.jpg # 头像的地址
       nav:
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
           href: /
-        - title: '<i class="fas fa-comments fa-fw"></i> 留言'
-          href: /comments/
-        - title: '<i class="fas fa-tags fa-fw"></i> 标签'
-          href: /tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 归档'
           href: /archive/
-        - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
-          href: /merger/
+#        - title: '<i class="fas fa-comments fa-fw"></i> 留言'
+#          href: /comments/
+#        - title: '<i class="fas fa-tags fa-fw"></i> 标签'
+#          href: /tags/
+#        - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
+#          href: /merger/
       simple_jekyll_search:
         enable: true
         full_text_search: false # 可能导致缓慢的搜索和加载
@@ -223,7 +223,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         - | # Copyright
           <div>
             <i class="fas fa-copyright fa-fw"></i>
-            2017-2020 WuK
+            2004-2020 aspd199
           </div>
         - | # 运行时间
           <div>
@@ -314,12 +314,12 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         />
         <link
           rel="apple-touch-icon-precomposed"
-          href="https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=300"
+          href="https://i1.hdslb.com/bfs/face/9cbe3d40029744b40d145a887e826e173ff60f66.jpg_64x64.jpg"
         />
         <link
           rel="shortcut
           icon"
-          href="https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=32"
+          href="https://i1.hdslb.com/bfs/face/9cbe3d40029744b40d145a887e826e173ff60f66.jpg_64x64.jpg"
         />
         <link
           rel="stylesheet"
@@ -453,7 +453,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 "mode": "draggable",
                 "hidden": true,
                 "content": {
-                  "link": ["https://jekyll-theme-WuK.wu-kan.cn"],
+                  "link": ["https://blog.art8620.com"],
                   "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
                   "custom": [{
                     "selector": "a",
