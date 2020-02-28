@@ -46,7 +46,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     recent:
       enable: true
       title: Recent
-      limit: 5
+      limit: 15
       archive:
         enable: true
         href: /archive
@@ -223,7 +223,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         - | # Copyright
           <div>
             <i class="fas fa-copyright fa-fw"></i>
-            2004-2020 aspd199
+            2020 神秘领域
           </div>
         - | # 运行时间
           <div>
@@ -263,7 +263,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
-              }, 1000, "10/04/2017 11:03:56") // 这是我第一篇CSDN博客的时间
+              }, 1000, "20/02/2020 20:02:20") // 这是我第一篇CSDN博客的时间
             </script>
           </div>
         - | # 不蒜子页面统计
